@@ -1,0 +1,45 @@
+body,html{
+	height: 100%;
+	width: 100%;
+	background-image: url('../img/Diseño.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+	
+	
+}
+.main-container{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.main-container > .login,
+.main-container > .hero-body{
+	height: auto;
+	width: 100%;
+	max-width: 400px;
+	min-width: 300px;
+}
+
+.form-inline{
+	display: inline-flex;
+}
+/*.title {
+	color: white;
+  }
+.title {
+  color: white;
+
+.subtitle{
+	color:white;
+
+}
+.control{
+	color: white;
+}
+h1 {
+	color: white;
+  }*/
+  
